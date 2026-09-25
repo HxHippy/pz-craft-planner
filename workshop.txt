@@ -1,4 +1,5 @@
 version=1
+id=3808092704
 title=Craft Planner
 description=[img]https://raw.githubusercontent.com/HxHippy/pz-craft-planner/main/docs/banner.jpg[/img]
 description=
@@ -15,8 +16,6 @@ description=[*]Or right-click any item and choose [b]Track how to make ...[/b].
 description=[/list]
 description=
 description=[img]https://raw.githubusercontent.com/HxHippy/pz-craft-planner/main/docs/planner-buildwindow.png[/img]
-
-[img]https://raw.githubusercontent.com/HxHippy/pz-craft-planner/main/docs/planner-craftwindow.png[/img]
 description=
 description=[h2]Reading the plan[/h2]
 description=[list]

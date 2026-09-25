@@ -4,7 +4,7 @@
 
 **Pick anything to build. Get the whole plan.**
 
-**[How to use it](GUIDE.md)** | **[Steam Workshop](#install)** | **[Issues](https://github.com/HxHippy/pz-craft-planner/issues)**
+**[How to use it](GUIDE.md)** | **[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3808092704)** | **[Issues](https://github.com/HxHippy/pz-craft-planner/issues)**
 
 Craft Planner is a Project Zomboid **Build 42** mod. Pick something to build and it gives you a live plan: the tools you need, what to go gather, and every craft in the order you do them, all the way down the chain.
 
@@ -32,9 +32,9 @@ Making the goal clears it from the planner, and Mod Options can turn that off. R
 Craft Planner is client-side only. It reads recipe scripts and your own containers and changes nothing in the world.
 
 ## Install
-- **Workshop:** subscribe, then enable **Craft Planner** in Mods.
+- **[Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3808092704):** subscribe, then enable **Craft Planner** in Mods.
 - **Manual:** copy this folder to `~/Zomboid/Workshop/CraftPlanner` and enable it in Mods.
-- **Dedicated server:** add the Workshop ID to `WorkshopItems=` and `CraftPlanner` to `Mods=`.
+- **Dedicated server:** add `3808092704` to `WorkshopItems=` and `CraftPlanner` to `Mods=`.
 
 ## Limits
 - Fluid counts cover containers you carry or that are nearby. World sources such as rain barrels and sinks aren't counted.
