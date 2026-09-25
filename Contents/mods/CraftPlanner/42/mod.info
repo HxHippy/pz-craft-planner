@@ -1,0 +1,9 @@
+name=Craft Planner
+id=CraftPlanner
+description=Pick anything to build and get the full plan: tools you need, what to gather, and every craft in order, down to raw materials. Hit Track in the crafting window or press K.
+author=HxHippy
+category=qol
+modversion=1.0.0
+versionMin=42.0.0
+poster=poster.png
+icon=icon.png
