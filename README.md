@@ -9,7 +9,7 @@
 Craft Planner is a Project Zomboid **Build 42** mod. Pick something to build and it gives you a live plan: the tools you need, what to go gather, and every craft in the order you do them, all the way down the chain.
 
 ## Start a plan
-- Hit **Track** next to Craft / Build in the crafting and build windows.
+- Hit **Track** next to Craft / Build in the crafting and build windows. With Neat Crafting it's the clipboard icon on the recipe icon, and it turns green once tracked.
 - Press **K** (rebindable in Mod Options) and search for anything.
 - Right-click an item and choose **Track how to make X**.
 
@@ -51,8 +51,10 @@ Contents/mods/CraftPlanner/
       CraftPlanner_Plan.lua     the planner
       CraftPlanner_Window.lua   planner window
       CraftPlanner_Buttons.lua  Track button in crafting/build windows
+      CraftPlanner_NeatCompat.lua  Track icon in Neat Crafting's recipe panel
       CraftPlanner_Main.lua     state, hotkey, auto-clear
     media/lua/shared/Translate/EN/UI.json
+    media/ui/CraftPlanner/Icon_Track.png
 ```
 
 ## License

@@ -50,6 +50,7 @@ description=[h2]Compatibility[/h2]
 description=[list]
 description=[*]Build 42 only.
 description=[*]Picks up recipes and buildables from other mods automatically.
+description=[*][b]Neat Crafting[/b]: the Track button is the clipboard icon in the top-right corner of the recipe icon. It turns green when tracked.
 description=[*]Safe to add to or remove from an existing save.
 description=[*]Fluids are counted in carried and nearby containers. Rain barrels and sinks aren't counted.
 description=[/list]

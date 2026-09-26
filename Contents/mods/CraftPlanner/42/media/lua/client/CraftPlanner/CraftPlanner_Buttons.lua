@@ -13,22 +13,27 @@ local function currentRecipe(widget)
     return widget.logic and widget.logic:getRecipe()
 end
 
-local function isTracked(playerObj, recipe)
+-- Shared with the Neat Crafting compat button.
+function CraftPlanner.isTracked(playerObj, recipe)
     if not playerObj or not recipe then return false end
     for _, name in ipairs(CraftPlanner.getState(playerObj).targets) do
         if name == recipe:getName() then return true end
     end
     return false
 end
+local isTracked = CraftPlanner.isTracked
+
+function CraftPlanner.toggleTracked(playerObj, recipe)
+    if not playerObj or not recipe then return end
+    if isTracked(playerObj, recipe) then
+        CraftPlanner.untrack(recipe:getName(), playerObj)
+    else
+        CraftPlanner.track(recipe:getName(), playerObj)
+    end
+end
 
 local function onTrackClicked(widget)
-    local recipe = currentRecipe(widget)
-    if not recipe then return end
-    if isTracked(widget.player, recipe) then
-        CraftPlanner.untrack(recipe:getName(), widget.player)
-    else
-        CraftPlanner.track(recipe:getName(), widget.player)
-    end
+    CraftPlanner.toggleTracked(widget.player, currentRecipe(widget))
 end
 
 local function trackLabel(tracked)
